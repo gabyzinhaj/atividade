@@ -1,0 +1,13 @@
+class Carro:
+
+    def _init_ (self,placa,modelo,ano):
+        self.placa = placa
+        self.modelo = modelo
+        self.ano = ano
+
+    if _name_ == "_main_":
+    palio = Carro("KJB-2668","EDX","1997")
+    vectra = Carro("KIR-0932","Elite","2008")
+    duster = Carro("OYW-4108","Dynamic","2015")
+
+    print(palio.placa,vectra.placa.duster.placa)
