@@ -1,0 +1,11 @@
+class Pessoa:
+    def _init_(self,nome,sexo,cpf):
+        self.nome = nome
+        self.sexo = sexo
+        self.cpf = cpf
+
+    if _name_ == "_main_":
+        pessoa1 = Pessoa ("João", "M", "123456")
+        pessoa2 = Pessoa ("Maria","F","45964")
+        print(pessoa1.nome,pessoa1.sexo,pessoa1.cpf)
+        print(pessoa2.nome,pessoa2.sexo,pessoa2.cpf)
